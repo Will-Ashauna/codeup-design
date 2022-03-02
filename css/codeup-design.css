@@ -1,0 +1,153 @@
+
+.container {
+    background-color: lightgrey;
+
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  50%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+}
+
+.title-text {
+    font-size: 36px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10%;
+}
+
+.media-links {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav-links {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0;
+    margin-bottom: 15%;
+}
+
+.subject-location-text {
+    font-weight: 800;
+    text-align: center;
+}
+
+.subject-text {
+    font-size: 28px;
+}
+
+.location-text {
+    font-size: 20px;
+}
+
+.preview-img {
+    max-width: 60%;
+    
+}
+
+.lg-media-buttons {
+
+
+}
+
+.sm-media-buttons {
+
+}
+
+.lg-buttons {
+    height:120px;
+    max-width: 120px;
+    border-radius: 50%;
+    border: 8px solid white;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sm-buttons {
+    display:block;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    font-weight: 800;
+}
+
+.lg-button1 {
+    background-color: #E6563B;
+    margin: 5%;
+}
+
+.lg-button2 {
+    background-color: #EB9D3A;
+    margin: 5%;
+}
+
+.lg-button3 {
+    background-color: #7CB06C;
+    margin: 5%;
+}
+
+.lg-button4 {
+    background-color: #00ABA9;
+    margin: 5%;
+}
+
+.sm-button1 {
+    background-color: #E6563B;
+    margin: 5%;
+}
+
+.sm-button2 {
+    background-color: #EB9D3A;
+    margin: 5%;
+}
+
+.sm-button3 {
+    background-color: #7CB06C;
+    margin: 5%;
+}
+
+.sm-button4 {
+    background-color: #00ABA9;
+    margin: 5%;
+}
+
+hr {
+    background-color: darkgrey;
+    border: 2px solid darkgrey;
+}
+
+.selected-work {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.selected-work-title {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.preview {
+
+
+}
+
+.preview-img {
+    height: auto;
+    max-width: 85%;
+}
+
+
+
