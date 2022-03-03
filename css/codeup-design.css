@@ -1,5 +1,11 @@
+.logo-container {
+    background: linear-gradient(to bottom, lightgrey 0%, lightgrey 30%, white 30%, white 70%, lightgrey 70%, lightgrey 100%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 
-.container {
+
+.body-container {
     background-color: lightgrey;
 
 }
@@ -8,9 +14,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:  50%;
-    margin-bottom: 10%;
-    padding-top: 10%;
+    height: 100%;
+    width:  40%;
 }
 
 .title-text {
@@ -39,28 +44,25 @@
 .subject-location-text {
     font-weight: 800;
     text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .subject-text {
-    font-size: 28px;
+    font-size: 42px;
 }
 
 .location-text {
-    font-size: 20px;
-}
-
-.preview-img {
-    max-width: 60%;
-    
+    font-size: 28px;
 }
 
 .lg-media-buttons {
-
-
+    design: flex;
+    justify-content: center;
 }
 
 .sm-media-buttons {
-
+    design: flex;
+    justify-content: center;
 }
 
 .lg-buttons {
@@ -71,16 +73,18 @@
     color: white;
     font-weight: 800;
     text-align: center;
+    font-size: 16px;
 }
 
 .sm-buttons {
-    display:block;
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    max-width: 24px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
     font-weight: 800;
+    text-align: center;
+    font-size: 8px;
 }
 
 .lg-button1 {
@@ -105,22 +109,26 @@
 
 .sm-button1 {
     background-color: #E6563B;
-    margin: 5%;
+    width: 50px;
+    margin: 1%;
 }
 
 .sm-button2 {
     background-color: #EB9D3A;
-    margin: 5%;
+    width: 50px;
+    margin: 1%;
 }
 
 .sm-button3 {
     background-color: #7CB06C;
-    margin: 5%;
+    width: 50px;
+    margin: 1%;
 }
 
 .sm-button4 {
     background-color: #00ABA9;
-    margin: 5%;
+    width: 50px;
+    margin: 1%;
 }
 
 hr {
@@ -136,18 +144,35 @@ hr {
 .selected-work-title {
     font-size: 18px;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
-.preview {
-
-
+.previews {
+    padding-bottom: 2%;
 }
 
 .preview-img {
-    height: auto;
-    max-width: 85%;
+    design: flex;
+    justify-content: center;
+    border: 6px solid darkgrey;
+    color: white;
+    padding: 0;
 }
+
+.preview-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+
+.preview-buttons {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+
+}
+
 
 
 
